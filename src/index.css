@@ -1,15 +1,15 @@
-@font-face {
+/* @font-face {
   font-family: "Montserrat";
   src: url("./fonts/Montserrat-VariableFont_wght.ttf")
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
-}
+} */
 
 :root {
-  font-family: Montserrat, Inter,
+  /* font-family: Montserrat, Inter,
     system-ui, Avenir, Helvetica, Arial,
-    sans-serif;
+    sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 }
