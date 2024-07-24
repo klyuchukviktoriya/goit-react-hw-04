@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
+import s from "./SearchBar.module.css"
 
 export default function SearchBar({ onSubmit }) {
 
@@ -19,7 +20,7 @@ export default function SearchBar({ onSubmit }) {
     }
 
     return (
-        <header>
+        <header className={s.header}>
             <div><Toaster /></div>
             <form onSubmit={handleSubmit}>
                 <input
